@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+li {
+	list-style: none;
+}
+
+
+* {
+	margin: 0;
+ 	padding: 0;
+	box-sizing: border-box;
+	color: #6c6b6b;
+}
+
+a {
+	text-decoration: none;
+}
+
+.clearfix::after {
+  content:"";
+  display:block;
+  clear:both;
+}
+
+header, nav, h2, .main-visual, footer {
+  font-family: "游ゴシック", "Courier", "Segoe Print", sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 150px;
+  background-color: brown;
+}
+
+.profile-image {
+  width: 400px;
+  height: 300px;
+  background-color: gold;
+}
+
+.profile {
+  width: 90%;
+  height: 300px;
+  margin: 0 auto;
+  background-color: green;
+}
+
+.contents {
+  width: 1000px;
+  height: 800px;
+  margin: 0 auto;
+}
+
+.skill {
+  float: left;
+  width: 500px;
+  height: 800px;
+  background-color: blue;
+}
+
+.pr {
+  float: left;
+  width: 500px;
+  height: 800px;
+  background-color: red;
+}
+
+footer {
+  width: 100%;
+  height: 120px;
+  background-color: yellow;
+}
