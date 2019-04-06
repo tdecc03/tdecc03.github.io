@@ -27,7 +27,7 @@ header, nav, h2, .main-visual, footer {
 }
 
 header {
-  width: 100%;
+  width: 90%;
   height: 150px;
 }
 
@@ -37,6 +37,7 @@ header {
 }
 
 nav ul {
+	display: block;
 	text-align: center;
   padding: 10px 0;
 }
@@ -46,29 +47,24 @@ nav li {
   margin: 0 20px;
 }
 
-.profile-image {
-  width: 400px;
-  height: 300px;
-  background-color: gold;
-}
-
-.profile {
-  width: 90%;
-  height: 300px;
-  margin: 0 auto;
-  background-color: green;
+.main-visual {
+  width: 100%;
+  height: 200px;
+	background-image: url(img/mv.jpg);
+	background-size: cover;
+	background-position: center;
 }
 
 .contents {
-  width: 1000px;
+  width: 850px;
   margin: 0 auto;
 }
 
 .skill {
   float: left;
-  width: 500px;
+  width: 425px;
 	height: 800px;
-  background-color: blue;
+  border: solid 2px;
 }
 
 .heading {
@@ -78,7 +74,7 @@ nav li {
 
 .pr {
   float: left;
-  width: 500px;
+  width: 425px;
 	height: 800px;
   background-color: red;
 }
@@ -89,12 +85,11 @@ footer {
   background-color: yellow;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 600px) {
 	header {
-		width: 90%;
 	}
 
-	.menu-icon {
+	.set {
 		display: block;
 	}
 
