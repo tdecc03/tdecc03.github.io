@@ -29,14 +29,24 @@ header, nav, h2, .main-visual, footer {
 header {
   width: 90%;
   height: 150px;
+	padding-top: 20px;
+	text-align: center;
+	margin: 0 auto;
 }
+
+
 
 .menu-icon {
 	display: none;
 	float: right;
+	padding-left: 20px;
 }
 
-nav ul {
+.sns {
+	float: right;
+}
+
+nav  {
 	display: block;
 	text-align: center;
   padding: 10px 0;
@@ -60,34 +70,64 @@ nav li {
   margin: 0 auto;
 }
 
-.skill {
+.skills {
   float: left;
   width: 425px;
-	height: 800px;
-  border: solid 2px;
+	padding-bottom: 30px;
 }
 
 .heading {
-	margin-bottom: 50px;
 	text-align: center;
+	padding: 30px 0px;
 }
 
-.pr {
+.skill {
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.skill-icon {
+	font-size: 100px;
+}
+
+.skill-image {
+}
+
+.text-contents {
+	font-size: 20px;
+}
+
+.profile {
   float: left;
   width: 425px;
-	height: 800px;
-  background-color: red;
+	padding: 0px 50px;
+}
+
+dl {
+	line-height: 1.9em;
+	padding-top: 30px;
+	font-size: 15px;
+}
+
+dt{
+	float: left;
+}
+
+dd {
+	margin-left: 9em;
 }
 
 footer {
   width: 100%;
-  height: 120px;
-  background-color: yellow;
+  height: 100px;
+	background-color: #848282;
+	text-align: center;
+	line-height: 100px;
+	color: white;
 }
 
-@media screen and (max-width: 600px) {
-	header {
-	}
+@media all and (max-width: 670px) {
 
 	.set {
 		display: block;
