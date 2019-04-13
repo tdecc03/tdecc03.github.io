@@ -96,6 +96,7 @@ nav li {
 
 .text-contents {
 	font-size: 20px;
+	display: none;
 }
 
 .profile {

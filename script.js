@@ -26,4 +26,10 @@ $(function(){
       scrollTop: 0
     }, 500);
   });
+
+  $(".skill").hover(function(){
+    $(this).find("p").slideDown();
+  }, function(){
+    $(this).find("p").slideUp();
+  });
 });
